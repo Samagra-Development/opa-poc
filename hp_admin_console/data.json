@@ -1,0 +1,47 @@
+{
+  "hp_admin_console": {
+    "role_grants": {
+      "Admin": "*",
+      "State Admin": [
+        {
+          "method": "GET",
+          "path": "/api/v5/assessment/invalidate"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v5/school-cache/invalidate"
+        }
+      ],
+      "District Admin": [
+        {
+          "method": "GET",
+          "path": "/api/v5/assessment/invalidate"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v5/school-cache/invalidate"
+        }
+      ],
+      "Block Admin": [
+        {
+          "method": "GET",
+          "path": "/api/v5/assessment/invalidate"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v5/school-cache/invalidate"
+        }
+      ],
+      "School Admin": [
+        {
+          "method": "GET",
+          "path": "/api/v5/assessment/invalidate"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v5/school-cache/invalidate"
+        }
+      ]
+    }
+  }  
+}
